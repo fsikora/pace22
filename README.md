@@ -8,3 +8,5 @@ To run :
 ```./pace < instancename```
    
 Uses [SNAP](snap.stanford.edu/) for graph management.
+
+Author : Florian Sikora (LAMSADE, U Dauphine, 2022)
