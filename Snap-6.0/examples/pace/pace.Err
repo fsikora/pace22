@@ -1,0 +1,85 @@
+--------
+/home/florian/Nextcloud/code/PACE22/Snap-6.0/examples/pace/pace.Err
+Tue Mar 29 15:38:00 2022
+Execution stopped: IsNode(SrcNId) && IsNode(DstNId) [Reason:'0 or 345 not a node.'], file graph.cpp, line 322
+--------
+--------
+/home/florian/Nextcloud/code/PACE22/Snap-6.0/examples/pace/pace.Err
+Tue Mar 29 15:38:02 2022
+Execution stopped: IsNode(SrcNId) && IsNode(DstNId) [Reason:'0 or 345 not a node.'], file graph.cpp, line 322
+--------
+--------
+/home/florian/Nextcloud/code/PACE22/Snap-6.0/examples/pace/pace.Err
+Tue Mar 29 15:40:30 2022
+Execution stopped: !IsNode(NId) [Reason:'NodeId 6 already exists'], file graph.cpp, line 240
+--------
+--------
+/home/florian/Nextcloud/code/PACE22/Snap-6.0/examples/pace/pace.Err
+Tue Mar 29 15:59:22 2022
+Execution stopped: G->GetEdges() == M+5, file pace.cpp, line 47
+--------
+--------
+/home/florian/Nextcloud/code/PACE22/Snap-6.0/examples/pace/pace.Err
+Sun Apr  3 12:05:38 2022
+Execution stopped: G->GetEdges() == M, file pace.cpp, line 55
+--------
+--------
+/home/florian/Nextcloud/code/PACE22/Snap-6.0/examples/pace/pace.Err
+Tue Apr 12 17:32:47 2022
+Execution stopped: S[v] != -1, file pace.cpp, line 383
+--------
+--------
+/home/florian/Nextcloud/code/PACE22/Snap-6.0/examples/pace/pace.Err
+Tue Apr 12 17:59:09 2022
+Execution stopped: S[v] != -1, file pace.cpp, line 384
+--------
+--------
+/home/florian/Nextcloud/code/PACE22/Snap-6.0/examples/pace/pace.Err
+Tue Apr 12 18:00:14 2022
+Execution stopped: S[v] != -1, file pace.cpp, line 384
+--------
+--------
+/home/florian/Nextcloud/code/PACE22/Snap-6.0/examples/pace/pace.Err
+Tue Apr 12 18:10:11 2022
+Execution stopped: G->GetEdges() == M, file pace.cpp, line 78
+--------
+--------
+/home/florian/Nextcloud/code/PACE22/Snap-6.0/examples/pace/pace.Err
+Thu Apr 21 13:35:06 2022
+Execution stopped: 1!=1, file pace.cpp, line 234
+--------
+--------
+/home/florian/Nextcloud/code/PACE22/Snap-6.0/examples/pace/pace.Err
+Thu Apr 21 13:35:57 2022
+Execution stopped: 1!=1, file pace.cpp, line 235
+--------
+--------
+/home/florian/Nextcloud/code/PACE22/Snap-6.0/examples/pace/pace.Err
+Thu Apr 21 13:36:23 2022
+Execution stopped: 1!=1, file pace.cpp, line 235
+--------
+--------
+/home/florian/Nextcloud/code/PACE22/Snap-6.0/examples/pace/pace.Err
+Wed May 25 18:03:12 2022
+Execution stopped: 1!=1, file pace.cpp, line 527
+--------
+--------
+/home/florian/Nextcloud/code/PACE22/Snap-6.0/examples/pace/pace.Err
+Wed May 25 18:03:39 2022
+Execution stopped: 1!=1, file pace.cpp, line 527
+--------
+--------
+/home/florian/Nextcloud/code/PACE22/Snap-6.0/examples/pace/pace.Err
+Wed May 25 18:04:48 2022
+Execution stopped: 1!=1, file pace.cpp, line 528
+--------
+--------
+/home/florian/Nextcloud/code/PACE22/Snap-6.0/examples/pace/pace.Err
+Wed May 25 18:05:35 2022
+Execution stopped: 1!=1, file pace.cpp, line 529
+--------
+--------
+/home/florian/Nextcloud/code/PACE22/Snap-6.0/examples/pace/pace.Err
+Wed May 25 18:05:46 2022
+Execution stopped: 1!=1, file pace.cpp, line 529
+--------
