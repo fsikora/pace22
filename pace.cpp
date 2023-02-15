@@ -560,7 +560,7 @@ int delta(const PGraph &G, const std::vector<double> &S, int v, int i)
   return -1 + CVplus(G, S, v, i).size() + CVminus(G, S, v, i).size();
 }
 
-void updateVertex(const PGraph &G, const std::vector<double> &S, int v, int *deltasplus, int *deltasminus, std::vector<bool> &ok)
+void updateVertex(const PGraph &G, const std::vector<double> &S, int v, std::vector<int> &deltasplus, std::vector<int>&deltasminus, std::vector<bool> &ok)
 {
   deltasplus[v] = delta(G, S, v, iplus(G, S, v));
   deltasminus[v] = delta(G, S, v, iminus(G, S, v));
@@ -647,7 +647,7 @@ float RandomBetween(float smallNumber, float bigNumber)
 }
 
 /* Main SA function*/
-std::vector<double> SA(const PGraph &G, std::vector<double> &S, int *deltasplus, int *deltasminus, std::vector<bool> &ok)
+std::vector<double> SA(const PGraph &G, std::vector<double> &S, std::vector<int> &deltasplus, std::vector<int> &deltasminus, std::vector<bool> &ok)
 {
   // std::vector<double> SA(const PGraph& G, std::vector<double>& S, int* deltasplus, int* deltasminus, std::vector<bool>& ok, std::vector<double>& probas) {
   double T = T0;
@@ -848,8 +848,11 @@ int main(int argc, char *argv[])
 
   /*inits*/
   // arrays of size G+1 (since start at 1)
-  int deltasplus[G->GetNodes() + 1];
-  int deltasminus[G->GetNodes() + 1];
+  //int deltasplus[G->GetNodes() + 1];
+  //int deltasminus[G->GetNodes() + 1];
+  //can't use array for big graphs
+  std::vector<int> deltasplus(G->GetNodes() + 1);
+  std::vector<int> deltasminus(G->GetNodes() + 1);
 
   std::vector<bool> ok(G->GetNodes() + 1, false);
   std::vector<double> S(G->GetNodes() + 1, -1);
